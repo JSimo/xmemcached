@@ -5,6 +5,8 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import net.rubyeye.memcached.benchmark.Constants;
 import net.rubyeye.memcached.benchmark.StringGenerator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public abstract class BaseReadWriteThread extends Thread {
 
